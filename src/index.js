@@ -5,8 +5,8 @@ import registerServiceWorker from './registerServiceWorker';
 import { Provider } from 'react-redux';
 import ReduxStore from './reducer';
 ReactDOM.render(
-    <Provider store={ReduxStore}>
-        <App />
-    </Provider>,
+   // <Provider store={ReduxStore}>
+        <App />,
+  //  </Provider>,
     document.getElementById('root'));
 registerServiceWorker();
